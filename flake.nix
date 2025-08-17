@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "";
+    nixpkgs.url = "nixpkgs/nixos-25.05";
   };
   outputs = { nixpkgs, ... }:
   {
@@ -11,5 +11,5 @@
         ./secrets
       ];
     };
-  }
+  };
 }

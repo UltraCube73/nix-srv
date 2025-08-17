@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
-  environment.systemPackages = [
+  environment.systemPackages = with pkgs; [
     git
     git-crypt
-  ]
+  ];
 }
